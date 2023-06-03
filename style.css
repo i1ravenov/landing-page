@@ -77,3 +77,45 @@ h1 {
 .sign-up-text {
   margin: 0;
 }
+
+.info, .quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 30px;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  border: 2px #3882f6 solid;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
