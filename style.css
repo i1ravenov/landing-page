@@ -1,4 +1,79 @@
 ul {
   list-style: none;
   padding-left: 0px;
+  display: flex;
+  gap: 10px;
+}
+
+a, .sign-up-text {
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background: #1f2937;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 200px;
+  gap: 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.header-image {
+  flex: 1 1 200px;
+  background-color: grey;
+}
+
+.logo-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  align-self: center;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  color: white;
+  align-self: flex-start;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15%;
+  flex: 1 1 0;
+}
+
+.sign-up-text {
+  margin: 0;
 }
